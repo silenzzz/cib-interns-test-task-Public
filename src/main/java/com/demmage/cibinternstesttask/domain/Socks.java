@@ -26,6 +26,12 @@ public class Socks {
     private int cottonPart;
     private int quantity;
 
+    public Socks(String color, int cottonPart, int quantity) {
+        this.color = color;
+        this.cottonPart = cottonPart;
+        this.quantity = quantity;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
